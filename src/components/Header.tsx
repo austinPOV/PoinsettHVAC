@@ -18,22 +18,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <div className="bg-primary text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center text-sm">
-            <div className="hidden sm:block">
-              <span className="font-medium">24/7 Emergency Service Available</span>
-            </div>
-            <div className="flex items-center gap-4">
-              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Phone className="w-4 h-4" />
-                <span className="font-semibold">{BUSINESS_INFO.phone}</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <a href="/" className="flex items-center">
